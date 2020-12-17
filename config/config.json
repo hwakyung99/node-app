@@ -3,21 +3,21 @@
     "username": "root",
     "password": "11111111",
     "database": "nodebird",
-    "host": "127.0.0.1",
+    "host": "database-1.cgalukoj9pwx.ap-northeast-2.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": "11111111",
     "database": "nodebird_test",
-    "host": "127.0.0.1",
+    "host": "database-1.cgalukoj9pwx.ap-northeast-2.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
     "password": "11111111",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "database-1.cgalukoj9pwx.ap-northeast-2.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
