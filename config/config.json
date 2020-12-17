@@ -1,20 +1,20 @@
 {
   "development": {
-    "username": "root",
+    "username": "admin",
     "password": "11111111",
     "database": "nodebird",
     "host": "database-1.cgalukoj9pwx.ap-northeast-2.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
+    "username": "admin",
     "password": "11111111",
     "database": "nodebird_test",
     "host": "database-1.cgalukoj9pwx.ap-northeast-2.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
+    "username": "admin",
     "password": "11111111",
     "database": "database_production",
     "host": "database-1.cgalukoj9pwx.ap-northeast-2.rds.amazonaws.com",
