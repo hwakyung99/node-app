@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon app",
     "test": "jest --detectOpenHandles",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage --detectOpenHandles"
   },
   "author": "",
   "license": "ISC",
