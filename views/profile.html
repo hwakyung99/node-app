@@ -35,8 +35,25 @@
           {% if twit.img %}
             <div class="twit-img"><img src="{{twit.img}}" alt="섬네일"></div>
           {% endif %}
+          <button class="remove btn" onclick='func(this)'>삭제</button>
         </div>
       {% endfor %}
     </div>
   </div>
+{% endblock %}
+
+{% block script %}
+  <script>
+    async function func(id){
+        try {
+          const userId = id.parentNode.querySelector('.twit-id').value;
+          await axios.delete(`/${userId}/remove`)
+          .then(() => {
+            location.reload();
+          })
+        } catch (err) {
+          console.error(err);
+        }
+      };
+  </script>
 {% endblock %}
